@@ -13,7 +13,7 @@ body {
 
 #contenedorGeneral{
     height: 36em;
-    width: 24em;
+    width: 22em;
 }
 
 
@@ -39,7 +39,7 @@ body {
 #parteSuperioEncendido {
 
     height: 2.5em;
-    background-color: gray;
+    background-color: rgb(185, 185, 185);
     border-radius: 1em 1em 0em 0em;
 }
 
@@ -48,91 +48,105 @@ body {
 #parteSuperiorPantalla {
 
     height: 14em;
-    background-color: gray;
+    background-color: rgb(185, 185, 185);
     display: flex;
     flex-direction: row;
     border-radius: 1em 1em 0em 0em;
 }
-#parteInferiorLogo {
+            #parteInferiorLogo {
 
-    height: 3.5em;
-    background-color: gray;
-}
-#bordeIzquierdo{
+                    height: 3.5em;
+                    background-color: rgb(185, 185, 185);
+                }
+            #bordeIzquierdo{
 
-    width: 2em;
-    background-color: gray;
+                    width: 2em;
+                    background-color: rgb(185, 185, 185);
     
-}
+                }
 
-#bordeIzquierdo{
+            #pantallaCentral{
 
-    width: 2em;
-    background-color: gray;
-}
-#pantallaCentral{
+                
+            
+                    width: 18em;
+                    
+                }
 
-    width: 20em;
+                            #centralArriba{
 
-}
-#centralArriba{
+                                    height: 1.6em;
+                                    background-color: #494f49;
+                                    border-radius: 1em 1em 0em 0em;
+                                }
 
-    height: 3em;
-    background-color: pink;
-}
+                            #centralCristal{
 
-#centralCristal{
+                                    height: 10.5em;
+                                    background-color: gainsboro;
+                                    display: flex;
+                                    flex-direction: row;
+                                }
 
-    height: 9em;
-    background-color: gainsboro;
-    display: flex;
-    flex-direction: row;
-}
+                                            #battery{
+                                                
+                                                width: 4em;
+                                                background-color: #494f49;
+                                            }
 
-#battery{
+                                            #lcd{
+                                            
+                                            height: auto;
+                                            width: 16em;
+                                            background-color: black;
+                                            }
 
-    width: 2em;
-    background-color: purple;
-}
+                                            #lcdDerecho{
 
-#lcd{
+                                            width: 4em;
+                                            background-color: #494f49;
+                                            }
 
-    width: 16em;
-    background-color: black;
-}
+            #centralAbajo{
 
-#lcdDerecho{
-
-    width: 2em;
-    background-color: fuchsia;
-}
-
-#centralAbajo{
-
-    height: 3em;
+                height: 3em;
     
-    display: flex;
-    flex-direction: row;
-}
+                display: flex;
+                flex-direction: row;
+                background-color: rgb(185, 185, 185);
+            }
 
-#abajoIzquierda{
+                        #abajoIzquierda{
 
-    width: 3em;
-    background-color: red;
+                                height: 1.8em;
+                                width: 3em;
+                                background-color: #494f49;
+                                border-radius: 0em 0em 0em 1em;
+                        }
 
-    border-radius: 0em 0em 0em 1em;
-}
-
-#abajoDerecha{
-    height: 3em;
-    width: 18em;
-    background-color: red;
-    border-radius: 0em 0em 6em 0em;
-}
+                        #abajoDerecha{
+                                height: 1.8em;
+                                width: 18em;
+                                background-color: #494f49;
+                                border-radius: 0em 0em 6em 0em;
+                        }
 
 
-#bordeDerecho{
+            #bordeDerecho{
 
-    width: 2em;
-    background-color: gray;
-}
+                width: 2em;
+                background-color: rgb(185, 185, 185);
+            }
+        
+            #parteInferiorLogo{
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-start;
+                background-color: brown;
+            }
+                        h1 {
+
+                            background-color: aquamarine;
+                        }
