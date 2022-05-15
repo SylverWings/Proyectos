@@ -9,11 +9,17 @@ body {
     padding: 0em;
     /* background-color: pink; */
     height: 100vh;
+    
 }
 
 #gameBoy{
+
+    border-radius: 1em 1em 5em 1em;
     height: 36em;
     width: 22em;
+    -webkit-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+-moz-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
 }
 
 
@@ -70,16 +76,53 @@ body {
                                 }
 
                                             #battery{
-                                                
+                                            
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;
                                             width: 4em;
                                             background-color: #494f49;
+                                            } 
+
+                                                    #led{
+
+                                                        height: 0.5em;
+                                                        width: 0.5em;
+                                                        border-radius: 50% ;
+                                                        background-color: red;
+                                                        transition: 1s;
+                                                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+                                                        -moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+                                                        box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+                                                        animation-name: parpadeo;
+                                                        animation-duration: 2s;
+                                                        animation-iteration-count: infinite;
+
+
+                                                    }
+
+                                                    #bat{
+                                                        
+                                                        display: flex;
+                                                        flex-direction: row;
+                                                        justify-content: center;
+                                                        align-items: flex-start;
+                                                    }
+
+                                                    h1{
+
+                                                        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                                                        font-size: 0.5em;
+                                                        color: white;
+                                                    }
+
+                                            #lcd{                                       
+                                            
+                                            width: 16em;
+                                           
                                             }
 
-                                            #lcd{
-                                                                                        
-                                            width: 16em;
-                                            
-                                            }
                                                     .foto {
 
                                                         width: 12em;
@@ -112,7 +155,7 @@ body {
                                             height: 1.8em;
                                             width: 18em;
                                             background-color: #494f49;
-                                            border-radius: 0em 0em 6em 0em;
+                                            border-radius: 0em 0em 7em 0em;
                                             }
 
 
@@ -185,7 +228,7 @@ body {
                             height: 2em;
                             width: 2em;
                             display: flex;
-                            background-color: black;                           
+                            background-color: #191919;                           
                             margin-left: 2em;                                                        
                             border-radius: 0.2em 0em 0em 0.2em;
                             
@@ -198,8 +241,8 @@ body {
                             display: flex;
 
                             border-radius: 0.2em;                             
-                            background-color: black;                                                      
-                                                       
+                            background-color: #191919;                                                      
+                                                     
                         }
 
                                 #circuloCentral{
@@ -208,8 +251,10 @@ body {
                                     width: 100%;
                                     height: 34%;
                                     border-radius: 50%;
-                                    background-color: rgb(20, 20, 20);
-
+                                    background-color: rgb(49, 49, 49);
+                                    -webkit-box-shadow: inset 2px 2px 11px 3px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px 3px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px 3px rgba(0,0,0,1);
                                 }
                         
                         #cruzab{
@@ -217,11 +262,10 @@ body {
                             height: 2em;
                             width: 2em;
                             display: flex;
-                            background-color: black;
+                            background-color: #191919;
                             
                             border-radius: 0.2em 0.2em 0em 0em;
                             transform: rotate(90deg);
-                            
                         }
 
 
@@ -247,14 +291,24 @@ body {
                             height: 3em;
                             width: 3em;
                             border-radius: 50%;
-                            background-color: #6E0F34;
-                            
+                            background-color: #6E0F34;                            
+                            transition: 0.5s;
+                            -webkit-box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);
+                            -moz-box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);
+                            box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);                            
+                        }
+                        
+                        #botonA:hover{
+
+                            transition: 0.5s;
+                            background-color: #520c27;
                         }
                         
                                 #a{
                                     
                                     color: #46001b;
                                     font-size: 1.5em;
+                                    
                                 }
 
                                 #b{
@@ -273,7 +327,16 @@ body {
                             width: 3em;
                             border-radius: 50%;
                             background-color: #6E0F34;
-                        
+                            transition: 0.5s;
+                            -webkit-box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);
+                            -moz-box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);
+                            box-shadow: -2px 2px 5px 2px rgba(0,0,0,0.75);
+                        }
+
+                        #botonB:hover{
+
+                            transition: 0.5s;
+                            background-color: #520c27;
                         }
 
                     
@@ -283,7 +346,7 @@ body {
         display: flex;
         flex-direction: row;
         border-radius: 0em 0em 5em 1em;
-        height: 8em;
+        height: 8.3em;
         
         background-color: rgb(185, 185, 185);
     }
@@ -310,6 +373,13 @@ body {
                             flex-direction: column;
                             
                         }
+
+                        #select:hover{
+
+                            background-color: #707070;
+                            transition: 0.5s;
+                        }
+
                         #select{
                             
                             display: flex;
@@ -318,8 +388,13 @@ body {
                             border-radius: 1em 1em 1em 1em ;
                             background-color: #494f49;
                             transform: rotate(-30deg);
-
+                            transition: 0.5s;
+                            -webkit-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+                            -moz-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+                            box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
                         }
+
+                        
 
                         #sel {
                             
@@ -344,8 +419,17 @@ body {
                             border-radius: 1em 1em 1em 1em ;
                             background-color: #494f49;
                             transform: rotate(-30deg);
+                            -webkit-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+                            -moz-box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
+                            box-shadow: -2px 3px 3px 0px rgba(0,0,0,1);
                         }
 
+                        #start:hover{
+
+                            transition: 0.5s;
+                            background-color: #707070;
+                            
+                        }
                         #sta{
 
                             margin-left: 1.6em;
@@ -376,6 +460,9 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
 
                     .sound2{
@@ -389,6 +476,9 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
                     .sound3{
                         
@@ -401,6 +491,9 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
                     
                     .sound4{
@@ -414,6 +507,9 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
                     .sound5{
                         
@@ -426,6 +522,9 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
                     .sound6{
                         
@@ -437,4 +536,19 @@ body {
                         background-color: #494f49;
                         border-radius: 1em;
                         transform: rotate(-30deg);
+                        -webkit-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+-moz-box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
+box-shadow: inset 2px 2px 11px -5px rgba(0,0,0,1);
                     }
+
+@keyframes parpadeo{
+    0%{
+        background-color: red;
+    }
+    50% {
+        background-color: gray;
+    }
+    100%{
+        background-color: red;
+    }
+}
