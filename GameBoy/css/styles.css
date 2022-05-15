@@ -19,40 +19,27 @@ body {
 
 #parteSuperior {
 
-    height: 20em;
+    
     border-radius: 1em 0em 0em 0em;
 }
 
-#parteCentral {
+        #bordeSuperior {
 
-    height: 10em;
-    background-color: yellow;
-}#parteInferior {
-
-    height: 6em;
-    background-color: green;
-}
+            height: 2.5em;
+            background-color: rgb(185, 185, 185);
+            border-radius: 1em 1em 0em 0em;
+        }
 
 
 
+        #pantallaSuperior {
 
-#bordeSuperior {
-
-    height: 2.5em;
-    background-color: rgb(185, 185, 185);
-    border-radius: 1em 1em 0em 0em;
-}
-
-
-
-#pantallaSuperior {
-
-    height: 14em;
-    background-color: rgb(185, 185, 185);
-    display: flex;
-    flex-direction: row;
-    border-radius: 1em 1em 0em 0em;
-}
+            height: 14em;
+            background-color: rgb(185, 185, 185);
+            display: flex;
+            flex-direction: row;
+            border-radius: 1em 1em 0em 0em;
+        }
             #bordeIzquierdo{
 
                     width: 2em;
@@ -61,9 +48,8 @@ body {
                 }
 
             #pantallaCentral{
-
-                
-            
+                    
+                    height: 13.9em;
                     width: 18em;
                     
                 }
@@ -85,13 +71,12 @@ body {
 
                                             #battery{
                                                 
-                                                width: 4em;
-                                                background-color: #494f49;
+                                            width: 4em;
+                                            background-color: #494f49;
                                             }
 
                                             #lcd{
-                                            
-                                            height: auto;
+                                                                                        
                                             width: 16em;
                                             background-color: black;
                                             }
@@ -104,11 +89,11 @@ body {
 
                             #abajo{
 
-                                    height: 3em;
+                                    height: 1.8em;
     
                                     display: flex;
                                     flex-direction: row;
-                                    background-color: rgb(212, 26, 26);
+                                    
                                 }
 
                                             #abajoIzquierda{
@@ -138,9 +123,9 @@ body {
                 display: flex;
                 flex-direction: row;
                 justify-content: flex-start;
-                align-items: ;
-                height: 3.5em;
-                background-color: rgb(32, 243, 8);
+                align-items: flex-end;
+                
+                background-color: rgb(185, 185, 185);
             }
                         p {                         
                             display: flex;
@@ -148,25 +133,85 @@ body {
                             align-items: center;                  
                             margin: 0em;
                             height: 1em;                            
-                            background-color: aquamarine;
+                            color: #004173;
 
                         }
 
                         #nin {
                                                         
-                            margin-left: 3.5em;
-                            font-size: 0.6em;
+                            margin-left: 2.4em;
+                            font-size: 0.9em;
+                            
                         }
 
                         #gb {
                             
-                            font-size: 1.8em;
+                            margin-left: 0.1em;
+                            font-size: 1.3em;
                             font-style: italic;
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
                         }
 
                         #tm {
 
+                            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
                             font-size: 0.2em;
                         }
 
+#parteCentral {
+        display: flex;
+        height: 10em;
+        background-color: yellow;
+    }
+
+            #centralIzquierdo {
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgb(185, 185, 185);
+
                 
+            }
+
+                        #cruzid {
+
+                            height: 1.3em;
+                            width: 6em;
+                            display: flex;
+                            background-color: black;
+                            z-index: 1;
+                            margin-left: 2.4em;
+
+                        }
+
+                        #cruzCentro{
+
+                            height: 1.3em;
+                            width: 1.3em;
+                            border-radius: 1em 1em 1em 1em;
+                            display: flex;
+                            align-items: center;
+                            background-color: gray;
+                            z-index: 3;
+                                                       
+                        }
+                        
+                        #cruzab{
+                            
+                            height: 1.3em;
+                            width: 6em;
+                            display: flex;
+                            background-color: red;
+                            z-index: 2;
+                        }
+
+
+            #centralDerecho{}
+
+#parteInferior {
+
+        height: 8em;
+        background-color: green;
+    }
