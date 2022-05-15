@@ -78,9 +78,13 @@ body {
                                             #lcd{
                                                                                         
                                             width: 16em;
-                                            background-color: black;
+                                            
                                             }
+                                                    .foto {
 
+                                                        width: 12em;
+                                                        height: 10.5em;
+                                                    }
                                             #lcdDerecho{
 
                                             width: 4em;
@@ -162,7 +166,7 @@ body {
 #parteCentral {
         display: flex;
         height: 10em;
-        background-color: yellow;
+        background-color: rgb(185, 185, 185);
     }
 
             #centralIzquierdo {
@@ -221,8 +225,44 @@ body {
                         }
 
 
-            #centralDerecho{}
+            #centralDerecho{
 
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-direction: column;
+                width: 11em;
+
+
+            }
+
+                        
+                        #botonB {
+
+                            display: flex;
+                            margin-left: 3em;
+                            margin-top: 1em; 
+                            height: 3em;
+                            width: 3em;
+                            border-radius: 50%;
+                            background-color: #6E0F34;
+                            
+                        }
+
+                        
+
+                        #botonA {
+
+                            display: flex;
+                            margin-right: 3em;
+                            margin-top: -2em;                                                        height: 3em;
+                            width: 3em;
+                            border-radius: 50%;
+                            background-color: #6E0F34;
+                        
+                        }
+
+                       
 #parteInferior {
 
         height: 8em;
