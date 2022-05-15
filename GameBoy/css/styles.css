@@ -11,7 +11,7 @@ body {
     height: 100vh;
 }
 
-#contenedorGeneral{
+#gameBoy{
     height: 36em;
     width: 22em;
 }
@@ -36,7 +36,7 @@ body {
 
 
 
-#parteSuperioEncendido {
+#bordeSuperior {
 
     height: 2.5em;
     background-color: rgb(185, 185, 185);
@@ -45,7 +45,7 @@ body {
 
 
 
-#parteSuperiorPantalla {
+#pantallaSuperior {
 
     height: 14em;
     background-color: rgb(185, 185, 185);
@@ -53,11 +53,6 @@ body {
     flex-direction: row;
     border-radius: 1em 1em 0em 0em;
 }
-            #parteInferiorLogo {
-
-                    height: 3.5em;
-                    background-color: rgb(185, 185, 185);
-                }
             #bordeIzquierdo{
 
                     width: 2em;
@@ -73,14 +68,14 @@ body {
                     
                 }
 
-                            #centralArriba{
+                            #arriba{
 
                                     height: 1.6em;
                                     background-color: #494f49;
                                     border-radius: 1em 1em 0em 0em;
                                 }
 
-                            #centralCristal{
+                            #cristal{
 
                                     height: 10.5em;
                                     background-color: gainsboro;
@@ -107,29 +102,29 @@ body {
                                             background-color: #494f49;
                                             }
 
-            #centralAbajo{
+                            #abajo{
 
-                height: 3em;
+                                    height: 3em;
     
-                display: flex;
-                flex-direction: row;
-                background-color: rgb(185, 185, 185);
-            }
+                                    display: flex;
+                                    flex-direction: row;
+                                    background-color: rgb(212, 26, 26);
+                                }
 
-                        #abajoIzquierda{
+                                            #abajoIzquierda{
 
-                                height: 1.8em;
-                                width: 3em;
-                                background-color: #494f49;
-                                border-radius: 0em 0em 0em 1em;
-                        }
+                                            height: 1.8em;
+                                            width: 3em;
+                                            background-color: #494f49;
+                                            border-radius: 0em 0em 0em 1em;
+                                            }
 
-                        #abajoDerecha{
-                                height: 1.8em;
-                                width: 18em;
-                                background-color: #494f49;
-                                border-radius: 0em 0em 6em 0em;
-                        }
+                                            #abajoDerecha{
+                                            height: 1.8em;
+                                            width: 18em;
+                                            background-color: #494f49;
+                                            border-radius: 0em 0em 6em 0em;
+                                            }
 
 
             #bordeDerecho{
@@ -138,16 +133,19 @@ body {
                 background-color: rgb(185, 185, 185);
             }
         
-            #parteInferiorLogo{
+            #bordeInferior{
                 
                 display: flex;
                 flex-direction: row;
-                justify-content: space-evenly;
-                align-content: ;
-                background-color: brown;
+                justify-content: flex-start;
+                align-items: ;
+                height: 3.5em;
+                background-color: rgb(32, 243, 8);
             }
-                        h1 {                         
-                                                       
+                        p {                         
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;                  
                             margin: 0em;
                             height: 1em;                            
                             background-color: aquamarine;
@@ -155,7 +153,8 @@ body {
                         }
 
                         #nin {
-
+                                                        
+                            margin-left: 3.5em;
                             font-size: 0.6em;
                         }
 
@@ -164,3 +163,10 @@ body {
                             font-size: 1.8em;
                             font-style: italic;
                         }
+
+                        #tm {
+
+                            font-size: 0.2em;
+                        }
+
+                
