@@ -19,12 +19,12 @@ Luego tenemos la parte Central donde estan la cruceta y los botones A y B.
 La cruceta fue lo que más tiempo me llevo. Al final, opté por lo más sencillo y
 la dividi en tres rectángulos.
 
-<img class="foto" src="img/gameboy.centro.jpg" alt="gb3>
+<img class="foto" src="img/gameboy.centro.jpg" alt="gb3">
 
 Y por último, tenemos la parte Inferior. En ella, volví a dividir en tres secciones
 el trabajo.
 
-<img class="foto" src="img/gameboy.inferior.jpg" alt="gb4>
+<img class="foto" src="img/gameboy.inferior.jpg" alt="gb4">
 
 Una vez acabado lo "básico", decidí ponerle detalles. Como la imagen .gif
 de la pantalla, el parpadeo del led y el sombreado.
