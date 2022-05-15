@@ -237,9 +237,11 @@ body {
             }
 
                         
-                        #botonB {
+                        #botonA {
 
                             display: flex;
+                            justify-content: center;
+                            align-items: center;
                             margin-left: 3em;
                             margin-top: 1em; 
                             height: 3em;
@@ -248,12 +250,24 @@ body {
                             background-color: #6E0F34;
                             
                         }
-
                         
+                                #a{
+                                    
+                                    color: #46001b;
+                                    font-size: 1.5em;
+                                }
 
-                        #botonA {
+                                #b{
+                                    
+                                    color: #46001b;
+                                    font-size: 1.5em;
+                                }
+
+                        #botonB {
 
                             display: flex;
+                            justify-content: center;
+                            align-items: center;
                             margin-right: 3em;
                             margin-top: -2em;                                                        height: 3em;
                             width: 3em;
@@ -262,9 +276,87 @@ body {
                         
                         }
 
+                    
                        
 #parteInferior {
 
+        display: flex;
+        flex-direction: row;
+        border-radius: 0em 0em 0em 1em;
         height: 8em;
-        background-color: green;
+        background-color: rgb(185, 185, 185);
     }
+
+            .seccion1{
+
+                height: 8em;
+                width: 6em;
+                border-radius: 0em 0em 0em 1em;
+            }
+
+            .seccion2{
+                
+                display: flex;
+                justify-content: center;
+                height: 8em;
+                width: 9em;
+                background-color: rgb(185, 185, 185);
+            }
+
+                        #botonS{
+
+                            display: flex;
+                            flex-direction: column;
+                            
+                        }
+                        #select{
+                            
+                            display: flex;
+                            height: 1em;
+                            width: 3.4em;
+                            border-radius: 1em 1em 1em 1em ;
+                            background-color: #494f49;
+                            transform: rotate(-30deg);
+
+                        }
+
+                        #sel {
+                            
+                            margin-left: 1.6em;
+                            font-size: 0.7em;
+                            width: 3em;
+                            transform: rotate(-30deg);
+                        }
+
+                        #botonT{
+
+                            display: flex;
+                            flex-direction: column;
+                            
+                        }
+
+                        #start{
+
+                            display: flex;
+                            height: 1em;
+                            width: 3.4em;
+                            border-radius: 1em 1em 1em 1em ;
+                            background-color: #494f49;
+                            transform: rotate(-30deg);
+                        }
+
+                        #sta{
+
+                            margin-left: 1.6em;
+                            font-size: 0.7em;
+                            width: 3em;
+                            transform: rotate(-30deg);
+                        }
+                    
+
+            .seccion3{
+
+                height: 8em;
+                width: 7em;
+                background-color: aqua;
+            }
